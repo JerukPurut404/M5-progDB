@@ -1,0 +1,13 @@
+Create, Grant, Alter, References
+
+Create: Dit recht is nodig wanneer een gebruiker nieuwe objecten in de database wil maken. Dit kan nodig zijn bij het opzetten van een nieuwe database, het uitbreiden van een bestaande database met nieuwe gegevensopslagplaatsen, of het implementeren van nieuwe functionaliteit in de database.
+
+Mogelijk misbruik door hackers: Een hacker met dit recht zou misbruik kunnen maken door ongeautoriseerde objecten in de database te maken, zoals backdoors of malafide scripts. Ze kunnen ook de bestaande objecten wijzigen of vervangen door kwaadaardige versies, waardoor ze toegang krijgen tot gevoelige gegevens of de werking van de database kunnen verstoren.
+
+Alter: Dit recht is nodig wanneer een gebruiker bestaande objecten in de database wil wijzigen zonder ze te verwijderen. Dit kan nodig zijn om aanpassingen aan de structuur van een tabel te maken, zoals het toevoegen of wijzigen van kolommen, of om de naamgeving van tabellen aan te passen.
+
+Mogelijk misbruik door hackers: Een hacker met dit recht kan wijzigingen aanbrengen in de database-objecten om de werking ervan te verstoren, gevoelige gegevens te wijzigen of toe te voegen, of om automatische processen binnen de database te manipuleren. Ze kunnen ook pogingen doen om schadelijke code uit te voeren door de bestaande objecten te wijzigen.
+
+
+
+
