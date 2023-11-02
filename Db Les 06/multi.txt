@@ -1,0 +1,7 @@
+Een multi_statement met MySQLi is een techniek waarmee meerdere SQL-instructies tegelijkertijd kunnen worden uitgevoerd op een MySQL-database. Dit wordt vaak gebruikt wanneer je meerdere queries in één keer wilt uitvoeren, in plaats van één query tegelijk.
+
+Het gevaar van het gebruik van multi_statements ligt in de mogelijkheid van SQL-injectie. SQL-injectie is een veelvoorkomende aanvalsmethode waarbij een kwaadwillende code kan invoegen en uitvoeren in een SQL-query. Als een multi_statement onvoldoende wordt beveiligd of gevalideerd, kan een aanvaller kwaadaardige code invoegen en uitvoeren in een van de statements, wat kan leiden tot de manipulatie of het compromitteren van de database.
+
+Om het gevaar van SQL-injectie te voorkomen, is het belangrijk om veilige programmeertechnieken toe te passen, zoals parameterbinding en inputvalidatie. Parameterbinding houdt in dat je placeholders gebruikt in je SQL-query en vervolgens de waarden bindt aan deze placeholders met behulp van gevalideerde input. Inputvalidatie controleert en filtert de ingevoerde gegevens voordat deze naar de database worden gestuurd, om ervoor te zorgen dat er geen kwaadaardige code wordt uitgevoerd.
+
+Het is dus van cruciaal belang om bij het gebruik van multi_statements in MySQLi de nodige beveiligingsmaatregelen te treffen om SQL-injectie te voorkomen en de integriteit van je database te waarborgen.
